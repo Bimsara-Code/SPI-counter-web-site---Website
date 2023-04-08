@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<!-- Created By CodingLab - www.codinglabweb.com -->
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+   <!--------- <title>Responsive Navigation Menu</title>------>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/gallery.css') }}">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+  <body>
+    <nav>
+      <div class="logo">stitch.ai</div>
+      <input type="checkbox" id="click">
+      <label for="click" class="menu-btn">
+        <i class="fas fa-bars"></i>
+      </label>
+      <ul>
+        <li><a href="home">Home</a></li>
+        <li><a href="live">Live</a></li>
+        <li><a href="services">Services</a></li>
+        <li><a class="active" href="gallery">Gallery</a></li>
+        <li><a href="feedback">Feedback</a></li>
+      </ul>
+    </nav>
+    <div class="content">
+      <div>You are in the gallery</div>
+    </div>
+
+  </body>
+</html>
